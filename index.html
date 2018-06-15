@@ -1,194 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>Homepage - Arul</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
 
-    
-    <link rel="shortcut icon" href="/favicon.ico">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NHRPF8');</script>
-        <style>
-
-
-      .container {
-        opacity: 0;
-        transition: opacity 500ms cubic-bezier(.4,0,.2,1);
-      }
-
-      .header__brand span { opacity:0; }
-      .animatable {
-        opacity: 0;
-        position: relative;
-        top: 16px;
-        transition: opacity 235ms cubic-bezier(.4,0,.2,1),
-                    top 850ms cubic-bezier(.4,0,.2,1);
-      }
-    </style>
-
-    <link href="//material.io/static/m2/css/main.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
-    <link rel="preload" href="//material.io/static/m2/js/main.min.js" as="script">
-    <link rel="preload" href="https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js" as="script">
-    <link rel="preload" href="https://www.gstatic.com/external_hosted/prettify/prettify_compiled.js" as="script">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "showLink": false,
-  "theme": "edgeless"
-})});
-</script>
-  </head>
-
-  <body class="header-show page--homepage"
-        data-comp="Global "
-        data-slug-id="pageStructure"
-        data-spec-alias="mio-material"
-         >
-
-
-
-
-<header class="header js-header" data-comp="Header">
-
-
-
-
-
-<a href="/" class="brand-lockup js-analytics-click"
-  >
-  <img src = "//arul.tech/whitefavicon.ico">
-  <span class="brand-lockup__title">Arul</span>
-</a>
-
-
-  <nav class="header__nav" role="navigation">
-    <ul class="header__nav-list header__nav-list--cleared">
-
-
-  <li class="header__nav-item  header__nav-item--active js-header-item" aria-current="true">
-    <a href="/"
-        class="header__nav-link js-analytics-click"
-        >
-      Home
-      <span class="header__nav-indicator"></span>
-    </a>
-  </li>
-
-
-  <li class="header__nav-item  js-header-item">
-    <a href="//arul.tech/exponus"
-        class="header__nav-link js-analytics-click"
-    >
-      Exponus
-      <span class="header__nav-indicator"></span>
-    </a>
-  </li>
-
-
- 
-
-    </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
   </nav>
 
-  
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
 
-
-</header>
-
-
-
-
-
-
-    <main class="main" role="main">
-
-
-
-
-
-
-
-
-
-    
-        <section class="section section--whats-new"
-                 aria-label="Featured">
-          <div class="container container--jumbo">
-            <div class="article-controls">
-              
-                
-              
-            </div>
-
-            <div>
-  <h2>Site Under Construction</h2>
-  <p>This site is currently being built by the legendary Exponus Corporation, the leading web development company, for our client R MUKILAN.</p>
-  </div>
-  </div>
-  </section>
-      
-  
-
-
-
-<!-- Footer -->
-
-
-<footer class="footer">
-  <div class="container container--jumbo">
-    <div class="footer-block footer-block--about">
-      
-      <a class="footer-block__logo js-analytics-click" href="/" >
-        <img class="footer-block__material-logo animatable js-lazy-image" data-src="/favicon.ico" src="" alt="Arul">
-      </a>
-      <div class="footer-block__content">
-        <p class="footer-block__description">It doesn’t matter what anyone says you can or can’t do. It doesn’t matter what opinions others have for your life, and what they consider possible. If you believe in yourself, then anything is possible!</p>
-        <ul class="footer-block__social-nav">
-          <li class="footer-block__social-nav-item">
-  <a href="https://www.github.com/arul00" target="_blank" rel="noopener" class="footer-block__social-nav-link js-analytics-click" 
->GitHub</a>
-</li>
-          <li class="footer-block__social-nav-item">
-  <a href="https://fb.me/arulthepro" target="_blank" rel="noopener" class="footer-block__social-nav-link js-analytics-click" >Facebook</a>
-</li>
-          <li class="footer-block__social-nav-item">
-  <a href="https://instagr.am/ar.u.l" target="_blank" rel="noopener" class="footer-block__social-nav-link js-analytics-click" >Instagram</a>
-</li>
-        </ul>
       </div>
     </div>
-
-   
-</footer>
-
-  
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
 
-</div>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
 
-    <script src="https://www.gstatic.com/external_hosted/prettify/prettify_compiled.js"></script>
-    <script src="https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js"></script>
-    <script src="//material.io/static/m2/js/main.min.js"></script><script src="https://support.google.com/inapp/api.js"></script>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
   </body>
 </html>
